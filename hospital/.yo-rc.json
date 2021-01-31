@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.ehealth"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "hospital",
+    "packageName": "com.mycompany.ehealth",
+    "packageFolder": "com/mycompany/ehealth",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTc1NTg1M2RhYmQ5ZWJkYjdiNTI1ZGM0OTlkOWVkMWMyMzZiMTk1Y2Y4NzY1Njk3NjAzZWYzZWUwMTU0MDVlOWE4NWJlN2YwZDI0NmVjMzhkMjgwMGRkOTNlMDM4NTczZThmMDg1MzEwMDE3ODIyMTI5Yzk2NmQ4Y2QyMDA2OWY=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1611931641840,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1611941012000
+  }
+}
